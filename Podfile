@@ -15,12 +15,10 @@ target 'FastlaneExample' do
     inherit! :search_paths
 
     pod 'ObjectMapper', '= 2.2.7'
-
   end
 
   target 'FastlaneExampleUITests' do
     inherit! :search_paths
-
   end
 
 end
